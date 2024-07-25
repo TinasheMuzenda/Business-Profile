@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.allBtn{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+    button{
+      width: 8rem; 
+      border: none;
+      height: 2rem; 
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+     .linkedIn{
+        background-color: #2095E2;
+        color: white;
+      }
+}
